@@ -1,5 +1,7 @@
 # typescript-react-various-counter
 
+[![biuld](https://github.com/hironomiu/typescript-react-various-counter/actions/workflows/build.yml/badge.svg)](https://github.com/hironomiu/typescript-react-various-counter/actions/workflows/build.yml)
+
 React でカウンターアプリを redux-toolkit,useState,context,useReducer などでの実装例
 
 ## Operation
