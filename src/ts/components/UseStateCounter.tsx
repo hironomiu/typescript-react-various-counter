@@ -80,7 +80,7 @@ const UseStateCounter: VFC = () => {
       </div>
       <div className="flex flex-col items-center pt-10">
         <div>
-          <h1>プログラム</h1>
+          <h1>source code</h1>
         </div>
         <pre className="mt-5 px-10 py-10 text-sm text-gray-200 bg-black">
           {`

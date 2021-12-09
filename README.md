@@ -37,3 +37,21 @@ yarn install
 ```
 yarn add react-router-dom @types/react-router-dom
 ```
+
+## Vercel Deploy Memo
+
+### FRAMEWORK PRESET
+
+Other
+
+### BUILD COMMAND
+
+yarn run build
+
+### OUTPUT DIRECTORY
+
+public
+
+### INSTALL COMMAND
+
+yarn install
