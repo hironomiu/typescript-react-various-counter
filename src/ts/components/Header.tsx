@@ -1,7 +1,7 @@
-import React from 'react'
+import { VFC } from 'react'
 import { Link } from 'react-router-dom'
 
-const Header = () => {
+const Header: VFC = () => {
   return (
     <>
       <Link className="mx-2" to="/">

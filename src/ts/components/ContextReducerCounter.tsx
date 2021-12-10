@@ -1,6 +1,6 @@
-import React, { useContext } from 'react'
+import { VFC, useContext } from 'react'
 import { Store } from '../context/CounterProvider'
-const ContextReducerCounter = () => {
+const ContextReducerCounter: VFC = () => {
   const { globalCount, setGlobalCount } = useContext(Store)
   console.log(globalCount)
   return (

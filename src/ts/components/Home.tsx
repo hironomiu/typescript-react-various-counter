@@ -1,13 +1,18 @@
 import { VFC } from 'react'
-import Layout from './Layout'
-import { BrowserRouter } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 const Home: VFC = () => {
   return (
-    <BrowserRouter>
-      <div className="flex flex-col items-center">
-        <Layout />
-      </div>
-    </BrowserRouter>
+    <div className="flex flex-col mt-10 text-xl">
+      <Link className="my-2" to="/usestate">
+        useState
+      </Link>
+      <Link className="my-2" to="/redux-toolkit">
+        redux toolkit
+      </Link>
+      <Link className="my-2" to="/context-reducer">
+        useContext + useReducer
+      </Link>
+    </div>
   )
 }
 

@@ -1,6 +1,6 @@
-import React from 'react'
+import { VFC } from 'react'
 
-const Footer = () => {
+const Footer: VFC = () => {
   return <div>hironomiu@2021</div>
 }
 
